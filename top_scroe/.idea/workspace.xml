@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ada2eb0-28dd-47ff-9573-71d26bf6b770" name="Default Changelist" comment="" />
+    <list default="true" id="6ada2eb0-28dd-47ff-9573-71d26bf6b770" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/top_scroe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/top/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top/migrations/0002_auto_20200701_0409.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top/migrations/0003_auto_20200701_0415.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top_scroe/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top_scroe/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top_scroe/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top_scroe/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top_scroe/wsgi.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +215,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593519594537</updated>
       <workItem from="1593519596377" duration="41466000" />
-      <workItem from="1593672783977" duration="757000" />
+      <workItem from="1593672783977" duration="1142000" />
     </task>
     <servers />
   </component>
