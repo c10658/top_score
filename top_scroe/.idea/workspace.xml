@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ada2eb0-28dd-47ff-9573-71d26bf6b770" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/附加题.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/top/serializers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,18 +44,19 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/top" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/templates/top" />
       <recent name="$PROJECT_DIR$/static/js" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/top" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.top_scroe_debug">
+  <component name="RunManager" selected="Python.附加题">
     <configuration name="Test: top.tests" type="DjangoTestsConfigurationType" temporary="true">
       <module name="top_scroe" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,6 +97,50 @@
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="附加题" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="top_scroe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/附加题.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="serializers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="top_scroe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/top" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/top/serializers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="top_scroe" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,12 +149,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/top_scroe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/top" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/top_scroe/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,13 +213,17 @@
       <item itemvalue="Django tests.Test: top.tests.TopTest.test_list_view_status_code" />
       <item itemvalue="Django tests.Test: top.tests" />
       <item itemvalue="Python.top_scroe_debug" />
-      <item itemvalue="Python.test" />
+      <item itemvalue="Python.serializers" />
+      <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.附加题" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.附加题" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.serializers" />
         <item itemvalue="Django tests.Test: top.tests" />
         <item itemvalue="Django tests.Test: top.tests.TopTest.test_list_view_status_code" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +238,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593519594537</updated>
       <workItem from="1593519596377" duration="41466000" />
-      <workItem from="1593672783977" duration="3929000" />
+      <workItem from="1593672783977" duration="6130000" />
     </task>
     <servers />
   </component>
@@ -207,25 +258,25 @@
       <screen x="47" y="23" width="1393" height="877" />
     </state>
     <state x="759" y="198" key="EnvironmentVariablesDialog/47.23.1393.877@47.23.1393.877" timestamp="1593520046356" />
-    <state width="889" height="231" key="GridCell.Tab.0.bottom" timestamp="1593672874936">
-      <screen x="48" y="23" width="1392" height="877" />
+    <state width="891" height="231" key="GridCell.Tab.0.bottom" timestamp="1593686380712">
+      <screen x="47" y="23" width="1393" height="877" />
     </state>
-    <state width="897" height="231" key="GridCell.Tab.0.bottom/47.23.1393.877@47.23.1393.877" timestamp="1593581193626" />
+    <state width="891" height="231" key="GridCell.Tab.0.bottom/47.23.1393.877@47.23.1393.877" timestamp="1593686380712" />
     <state width="889" height="231" key="GridCell.Tab.0.bottom/48.23.1392.877@48.23.1392.877" timestamp="1593672874936" />
-    <state width="889" height="231" key="GridCell.Tab.0.center" timestamp="1593672874935">
-      <screen x="48" y="23" width="1392" height="877" />
+    <state width="891" height="231" key="GridCell.Tab.0.center" timestamp="1593686380711">
+      <screen x="47" y="23" width="1393" height="877" />
     </state>
-    <state width="897" height="231" key="GridCell.Tab.0.center/47.23.1393.877@47.23.1393.877" timestamp="1593581193625" />
+    <state width="891" height="231" key="GridCell.Tab.0.center/47.23.1393.877@47.23.1393.877" timestamp="1593686380711" />
     <state width="889" height="231" key="GridCell.Tab.0.center/48.23.1392.877@48.23.1392.877" timestamp="1593672874935" />
-    <state width="889" height="231" key="GridCell.Tab.0.left" timestamp="1593672874935">
-      <screen x="48" y="23" width="1392" height="877" />
+    <state width="891" height="231" key="GridCell.Tab.0.left" timestamp="1593686380711">
+      <screen x="47" y="23" width="1393" height="877" />
     </state>
-    <state width="897" height="231" key="GridCell.Tab.0.left/47.23.1393.877@47.23.1393.877" timestamp="1593581193625" />
+    <state width="891" height="231" key="GridCell.Tab.0.left/47.23.1393.877@47.23.1393.877" timestamp="1593686380711" />
     <state width="889" height="231" key="GridCell.Tab.0.left/48.23.1392.877@48.23.1392.877" timestamp="1593672874935" />
-    <state width="889" height="231" key="GridCell.Tab.0.right" timestamp="1593672874936">
-      <screen x="48" y="23" width="1392" height="877" />
+    <state width="891" height="231" key="GridCell.Tab.0.right" timestamp="1593686380711">
+      <screen x="47" y="23" width="1393" height="877" />
     </state>
-    <state width="897" height="231" key="GridCell.Tab.0.right/47.23.1393.877@47.23.1393.877" timestamp="1593581193626" />
+    <state width="891" height="231" key="GridCell.Tab.0.right/47.23.1393.877@47.23.1393.877" timestamp="1593686380711" />
     <state width="889" height="231" key="GridCell.Tab.0.right/48.23.1392.877@48.23.1392.877" timestamp="1593672874936" />
     <state width="1350" height="286" key="GridCell.Tab.1.bottom" timestamp="1593672720763">
       <screen x="48" y="23" width="1392" height="877" />
@@ -251,10 +302,10 @@
       <screen x="48" y="23" width="1392" height="877" />
     </state>
     <state width="243" height="457" key="HiddenNamespacesPopup/48.23.1392.877@48.23.1392.877" timestamp="1593672616318" />
-    <state x="443" y="100" key="SettingsEditor" timestamp="1593672841308">
-      <screen x="48" y="23" width="1392" height="877" />
+    <state x="443" y="100" key="SettingsEditor" timestamp="1593686345703">
+      <screen x="47" y="23" width="1393" height="877" />
     </state>
-    <state x="443" y="100" key="SettingsEditor/47.23.1393.877@47.23.1393.877" timestamp="1593531146744" />
+    <state x="443" y="100" key="SettingsEditor/47.23.1393.877@47.23.1393.877" timestamp="1593686345703" />
     <state x="443" y="100" key="SettingsEditor/48.23.1392.877@48.23.1392.877" timestamp="1593672841308" />
     <state x="668" y="50" width="604" height="822" key="find.popup" timestamp="1593530853494">
       <screen x="47" y="23" width="1393" height="877" />
@@ -266,7 +317,10 @@
     <state x="681" y="213" width="670" height="676" key="search.everywhere.popup/47.23.1393.877@47.23.1393.877" timestamp="1593523005068" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/top_scroe$.coverage" NAME="附加题 Coverage Results" MODIFIED="1593686380703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/top_scroe$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1593685294964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/top" />
     <SUITE FILE_PATH="coverage/top_scroe$Test__top_tests.coverage" NAME="Test: top.tests Coverage Results" MODIFIED="1593672589720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/top_scroe$serializers.coverage" NAME="serializers Coverage Results" MODIFIED="1593684672877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/top" />
     <SUITE FILE_PATH="coverage/top_scroe$test.coverage" NAME="test Coverage Results" MODIFIED="1593580835259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/top_scroe" />
     <SUITE FILE_PATH="coverage/top_scroe$top_scroe_debug.coverage" NAME="top_scroe_debug Coverage Results" MODIFIED="1593672796333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

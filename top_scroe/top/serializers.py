@@ -12,3 +12,4 @@ class ClientSerializer(serializers.ModelSerializer):
             if attrs['score'] < 1 or attrs['score'] > 10000000:
                 raise serializers.ValidationError('分数范围需在1-10000000之间')
         return attrs
+
