@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <script src="/static/js/jquery-1.11.3.js"></script>
+    <script>
+        $(function () {
+            $("#btnUp").click(function () {
+                score = $("#put_score").val();
+                client = $("#put_client").val();
+                if (score && client) {
+                    $.get("/upload/", {
+                        {#csrfmiddlewaretoken: $("[name='csrfmiddlewaretoken']").val(),#}
+                        score: score,
+                        client: client,
+                    }, function (data) {
+                        if (data['code'] == 200) {
+                            $("#msg1").html("上传成功\n 客户端" + client + ' : ' + score);
+                        } else {
+                            alert('提交失败');
+                        }
+                    })
+                } else {
+                    alert("请补全提交参数")
+                }
+            });
+            $("#btnGet").click(function () {
+                var client = $("#get_client").val();
+                var start_st = $("#start_st").val();
+                var end_st = $("#end_st").val();
+                if (client && start_st && end_st) {
+                    $.get('/list/', {
+                        client: client,
+                        start_st: start_st,
+                        end_st: end_st,
+                        {#csrfmiddlewaretoken: $("[name='csrfmiddlewaretoken']").val()#}
+                    }, function (data) {
+                        var html = "<tr><td>排名</td><td>客户端</td><td>分数</td></tr>"
+                        console.log(data)
+                        for (var i = 0; i < data.length; i++) {
+                            info = data[i]
+                            html += "<tr>";
+                            html += "<td>" + info[0] + "</td>";
+                            html += "<td>" + info[1] + "</td>";
+                            html += "<td>" + info[2] + "</td>";
+                            html += "</tr>";
+                        }
+                        $("#div_res").html(html)
+                    }, "json")
+                } else {
+                    alert("未输入查询参数")
+                }
+
+            })
+        })
+
+    </script>
+    <style>
+        td {
+            border: 1px solid #888;
+            margin: 0px;
+        }
+
+        span {
+            color: red;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+{#{% csrf_token %}#}
+<p>接口1: 提交分数</p>
+<p>
+    <input type="text" id="put_client" placeholder="输入客户端号 例如:1">
+    <input type="text" id="put_score" placeholder="输入分数">
+    <button id="btnUp">提交得分</button>
+    <span id="msg1"></span>
+</p>
+<br><br><br>
+<p>接口2: 查看排行榜</p>
+<p>
+    <input type="text" id="get_client" placeholder="输入客户端号 例如:1">
+    <input type="text" id="start_st" placeholder="开始名次">
+    <input type="text" id="end_st" placeholder="结束名次">
+    <button id="btnGet">查询</button>
+</p>
+<div id="div_res">
+    <tr>
+        <td>排名</td>
+        <td>客户端</td>
+        <td>分数</td>
+    </tr>
+    {#    <div id="tbody_res"></div>#}
+</div>
+</body>
+</html>
